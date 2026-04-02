@@ -6,6 +6,7 @@ import pic1 from "@/assets/csd-team-members/1.jpeg";
 import pic2 from "@/assets/csd-team-members/2.jpeg";
 import pic3 from "@/assets/csd-team-members/3.jpeg";
 import pic4 from "@/assets/csd-team-members/4.jpeg";
+import pic5 from "@/assets/csd-team-members/5.jpeg";
 const TeamSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -30,6 +31,12 @@ const teamMembers = [
     role: "25+ Years Experience | Electrical Maintenance & Supervision Expert | SABIC",
     image: pic4,
   },
+{
+    name: "Eng. Mohammed Khalid Batarfi",
+    role: "25+ Years Experience | Electrical Maintenance & Supervision Expert | SABIC",
+    image: pic5,
+  },
+  
 ];
 
 const chunkArray = (arr, chunkSize) => {
