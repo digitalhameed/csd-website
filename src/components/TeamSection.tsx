@@ -26,7 +26,7 @@ const teamMembers = [
     image: pic3,
   },
    {
-    name: "Saleh Al Ghamdi",
+    name: "Mr. Saleh Al Ghamdi",
     role: "25+ Years Experience | Electrical Maintenance & Supervision Expert | SABIC",
     image: pic4,
   },

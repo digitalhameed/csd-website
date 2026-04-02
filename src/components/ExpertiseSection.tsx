@@ -30,7 +30,7 @@ const ExpertiseSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="py-24 bg-darker-surface" ref={ref}>
+    <section className="py-20 bg-darker-surface" ref={ref}>
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div

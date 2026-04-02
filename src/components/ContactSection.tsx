@@ -8,7 +8,7 @@ const ContactSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="contact" className="py-24 bg-dark-surface" ref={ref}>
+    <section id="contact" className="py-20 bg-dark-surface" ref={ref}>
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -31,37 +31,39 @@ const ContactSection = () => {
           </div>
 
           <div className="space-y-6">
-            <a
-              href="tel:+966563522807"
-              className="flex items-center gap-4 p-4 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors group"
-            >
-              <div className="w-12 h-12 rounded-full bg-gold-gradient flex items-center justify-center group-hover:scale-110 transition-transform">
-                <Phone className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="text-lg font-semibold">+966 56 352 2807</span>
-            </a>
+           <a
+  href="tel:+966563522807"
+  className="flex items-center gap-4 p-4 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors group"
+>
+  <div className="w-12 h-12 rounded-full bg-gold-gradient flex items-center justify-center group-hover:scale-110 transition-transform">
+    <Phone className="w-5 h-5 text-primary-foreground" />
+  </div>
+  <span className="text-sm md:text-md font-semibold">+966 56 352 2807</span>
+</a>
 
-            <a
-              href="mailto:Admin@csd-const.com"
-              className="flex items-center gap-4 p-4 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors group"
-            >
-              <div className="w-12 h-12 rounded-full bg-gold-gradient flex items-center justify-center group-hover:scale-110 transition-transform">
-                <Mail className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="text-lg font-semibold">Admin@csd-const.com</span>
-            </a>
+<a
+  href="mailto:Admin@csd-const.com"
+  className="flex items-center gap-4 p-4 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors group"
+>
+  <div className="w-12 h-12 rounded-full bg-gold-gradient flex items-center justify-center group-hover:scale-110 transition-transform">
+    <Mail className="w-5 h-5 text-primary-foreground" />
+  </div>
+  <span className="text-sm md:text-md font-semibold">Admin@csd-const.com</span>
+</a>
 
-            <div className="flex items-start gap-4 p-4 rounded-lg bg-secondary">
-              <div className="w-12 h-12 rounded-full bg-gold-gradient flex items-center justify-center shrink-0">
-                <MapPin className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <div>
-                <p className="font-semibold">Jeddah - Palestine St. Next to Dr. Suliman Fakeeh Hospital</p>
-                <p className="font-arabic text-muted-foreground mt-1" dir="rtl">
-                  جدة - شارع فلسطين - بجوار مستشفى الدكتور سليمان فقيه
-                </p>
-              </div>
-            </div>
+<div className="flex items-start gap-4 p-4 rounded-md bg-secondary">
+  <div className="w-12 h-12 rounded-full bg-gold-gradient flex items-center justify-center shrink-0">
+    <MapPin className="w-5 h-5 text-primary-foreground" />
+  </div>
+  <div>
+    <p className="text-sm md:text-base font-semibold">
+      Jeddah - Palestine St. Next to Dr. Suliman Fakeeh Hospital
+    </p>
+    <p className="text-xs md:text-sm font-arabic text-muted-foreground mt-1" dir="rtl">
+      جدة - شارع فلسطين - بجوار مستشفى الدكتور سليمان فقيه
+    </p>
+  </div>
+</div>
           </div>
         </motion.div>
       </div>

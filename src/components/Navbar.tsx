@@ -23,7 +23,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         <a href="#home" className="flex items-center gap-3">
-          <img src={csdLogo} alt="CSD Logo" className="h-10 w-10 rounded-full object-cover" />
+          <img src={csdLogo} alt="CSD Logo" className="h-10 w-20 rounded-full object-cover" />
           <span className="font-display font-bold text-xl text-gold">CSD</span>
         </a>
         <div className="hidden md:flex items-center gap-6" style={{fontWeight:"Bold", fontSize:"25px"}}>
