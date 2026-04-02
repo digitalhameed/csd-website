@@ -33,7 +33,7 @@ const teamMembers = [
   },
 {
     name: "Eng. Mohammed Khalid Batarfi",
-    role: "25+ Years Experience | Electrical Maintenance & Supervision Expert | SABIC",
+    role: "MBA | Information Systems Management Expert | Project Leader in IT Setup & Maintenance",
     image: pic5,
   },
   
