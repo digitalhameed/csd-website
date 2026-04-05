@@ -4,12 +4,8 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/csd-website/", // ✅ MUST match your repo name
-  server: {
-    host: "::",
-    port: 8080,
-    hmr: { overlay: false },
-  },
+  base: '/',  //   ✅ MUST match your repo name
+  
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: { alias: { "@": path.resolve(__dirname, "./src") } },
 }));

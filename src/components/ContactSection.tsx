@@ -48,7 +48,9 @@ const ContactSection = () => {
   <div className="w-12 h-12 rounded-full bg-gold-gradient flex items-center justify-center group-hover:scale-110 transition-transform">
     <Mail className="w-5 h-5 text-primary-foreground" />
   </div>
-  <span className="text-sm md:text-md font-semibold">Admin@csd-const.com</span>
+  <span className="text-sm md:text-md font-semibold whitespace-nowrap">
+    Admin@csd-const.com
+  </span>
 </a>
 
 <div className="flex items-start gap-4 p-4 rounded-md bg-secondary">

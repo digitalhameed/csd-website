@@ -13,7 +13,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <Index /> {/* All sections live inside Index */}
+      <Index />
     </TooltipProvider>
   </QueryClientProvider>
 );
