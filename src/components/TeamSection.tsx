@@ -7,6 +7,7 @@ import pic2 from "@/assets/csd-team-members/2.jpeg";
 import pic3 from "@/assets/csd-team-members/3.jpeg";
 import pic4 from "@/assets/csd-team-members/4.jpeg";
 import pic5 from "@/assets/csd-team-members/5.jpeg";
+import pic0 from "@/assets/csd-team-members/0.png";
 const TeamSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -36,7 +37,47 @@ const teamMembers = [
     role: "MBA | Information Systems Management Expert | Project Leader in IT Setup & Maintenance",
     image: pic5,
   },
+
+  {
+    name: "Mr. Fahad Al-Suba",
+    role: "30+ Years Experience | Electrical & Instrumentation Supervisor | SABIC & Petro Rabigh Pioneer Projects",
+    image: pic0,
+  },
+
+    {
+    name: "Eng. Abdulaziz Qasim",
+    role: "Master’s in Electrical Engineering (Japan) | Experience with SABIC & Multiple Companies",
+    image: pic0,
+  },
+  {
+    name: "Mr. Yahya Abu Gharamah",
+    role: "Former Refinery Supervisor (Aramco) | 30+ Years Mechanical Inspection Expert",
+    image: pic0,
+  },
   
+  {
+    name: "Mr. Mohammed Haddad",
+    role: "25+ Years Experience | Manufacturing Expert & Trainer | Machinery & Materials Specialist | SABIC",
+    image: pic0,
+  },
+
+   {
+    name: "Eng. Yazeed Al-Zamil",
+    role: "Quality & Waste Reduction Expert | Project Management Specialist",
+    image: pic0,
+  },
+  {
+    name: "Mr. Khalid Al-Zahrani",
+    role: "30+ Years Experience at SABIC | Shift Manager | RCA & Troubleshooting Expert",
+    image: pic0,
+  },
+
+  {
+    name: "Mr. Shafi Al-Jaed",
+    role: "29+ Years Experience | Mechanical Maintenance Supervisor | Projects & Shutdown Expert | SABIC",
+    image: pic0,
+  },
+
 ];
 
 const chunkArray = (arr, chunkSize) => {
